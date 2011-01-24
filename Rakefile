@@ -15,8 +15,8 @@ Jeweler::Tasks.new do |gem|
   gem.name = "betavites"
   gem.homepage = "http://github.com/ankane/betavites"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{Betavites}
+  gem.description = %Q{Don't waste time building your beta invite system}
   gem.email = "andrew@getformidable.com"
   gem.authors = ["Andrew Kane"]
   # Include your dependencies below. Runtime dependencies are required when using your gem,
