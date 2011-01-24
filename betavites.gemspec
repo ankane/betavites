@@ -32,7 +32,6 @@ Gem::Specification.new do |s|
     "lib/betavites/config.rb",
     "lib/betavites/railtie.rb",
     "lib/betavites/remote.rb",
-    "spec/betavites_spec.rb",
     "spec/spec_helper.rb"
   ]
   s.homepage = %q{http://github.com/ankane/betavites}
@@ -41,7 +40,6 @@ Gem::Specification.new do |s|
   s.rubygems_version = %q{1.3.7}
   s.summary = %q{Betavites}
   s.test_files = [
-    "spec/betavites_spec.rb",
     "spec/spec_helper.rb"
   ]
 
