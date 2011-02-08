@@ -5,8 +5,7 @@ require "betavites/railtie" if defined?(Rails::Railtie)
 
 module Betavites
 
-  # HOST = "http://dev-www.betavites.com"
-  HOST = "https://betavites.heroku.com"
+  HOST = "http://betavites.heroku.com"
   VERSION = 1
   CONFIG_PATH = "config/betavites.yml"
 

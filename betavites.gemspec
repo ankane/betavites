@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = %q{betavites}
-  s.version = "0.1.0"
+  s.version = "0.1.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Andrew Kane"]
-  s.date = %q{2011-01-24}
+  s.date = %q{2011-02-07}
   s.default_executable = %q{betavites}
   s.description = %q{Don't waste time building your beta invite system}
   s.email = %q{andrew@getformidable.com}
@@ -37,14 +37,13 @@ Gem::Specification.new do |s|
   s.homepage = %q{http://github.com/ankane/betavites}
   s.licenses = ["MIT"]
   s.require_paths = ["lib"]
-  s.rubygems_version = %q{1.3.7}
+  s.rubygems_version = %q{1.5.0}
   s.summary = %q{Betavites}
   s.test_files = [
     "spec/spec_helper.rb"
   ]
 
   if s.respond_to? :specification_version then
-    current_version = Gem::Specification::CURRENT_SPECIFICATION_VERSION
     s.specification_version = 3
 
     if Gem::Version.new(Gem::VERSION) >= Gem::Version.new('1.2.0') then
